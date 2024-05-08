@@ -1,4 +1,3 @@
-// Code your solutions in this file
 const writeCards = (names, event) => {
   const cards = []
   for (let i = 0; i < names.length; i++ ){
@@ -8,3 +7,9 @@ const writeCards = (names, event) => {
   return cards
 }
 
+const countDown = (value) => {
+  while (value >= 0){
+      console.log(value)
+      value--;
+  }
+}
